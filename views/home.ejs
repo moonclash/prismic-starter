@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head', {
+        title: 'title goes here'
+    }); %>
+<body>
+    
+</body>
+</html>
+
+<img src="<%- document.data['hero-image'].url %>" />
+<h1><%- ctx.prismicH.asText(document.data['homepage-title']) %></h1>
